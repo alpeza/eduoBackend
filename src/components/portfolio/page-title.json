@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_portfolio_page_titles",
+  "info": {
+    "displayName": "PageTitle",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

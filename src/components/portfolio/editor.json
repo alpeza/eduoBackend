@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_portfolio_editors",
+  "info": {
+    "displayName": "editor",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "surname": {
+      "type": "string"
+    },
+    "alias": {
+      "type": "string"
+    },
+    "about": {
+      "type": "text"
+    },
+    "profileimage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

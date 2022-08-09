@@ -106,6 +106,17 @@
         }
       },
       "component": "landing-assets.navbar"
+    },
+    "MetaInfo": {
+      "displayName": "MetaInfo",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "landing-assets.meta-info"
     }
   }
 }

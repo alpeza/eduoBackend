@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_portfolio_descriptors",
+  "info": {
+    "displayName": "Descriptor",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Article",
+        "Presentation",
+        "Document",
+        "Video"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "miniature": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "editor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::editor.editor"
+    }
+  }
+}
