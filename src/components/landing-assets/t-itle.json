@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_landing_assets_t_itles",
+  "info": {
+    "displayName": "TItle",
+    "icon": "cubes"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Head": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "string"
+    }
+  }
+}

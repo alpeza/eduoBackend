@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_landing_assets_acordeons",
+  "info": {
+    "displayName": "Acordeon",
+    "icon": "cubes"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "text"
+    }
+  }
+}

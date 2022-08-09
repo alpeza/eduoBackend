@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_landing_assets_card_left_texts",
+  "info": {
+    "displayName": "CardLeftText",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CardItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-assets.card-item"
+    }
+  }
+}

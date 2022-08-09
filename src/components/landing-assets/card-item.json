@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_landing_assets_card_items",
+  "info": {
+    "displayName": "CardItem",
+    "icon": "cubes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    },
+    "Icon": {
+      "type": "enumeration",
+      "enum": [
+        "  EmojiHappyIcon",
+        "  ChartSquareBarIcon",
+        "  CursorClickIcon",
+        "  DeviceMobileIcon",
+        "  AdjustmentsIcon",
+        "  SunIcon"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

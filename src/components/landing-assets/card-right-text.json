@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_landing_assets_card_right_texts",
+  "info": {
+    "displayName": "CardRightText",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "text"
+    },
+    "CardItem": {
+      "displayName": "CardItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-assets.card-item"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

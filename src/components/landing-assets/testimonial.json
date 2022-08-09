@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_landing_assets_testimonials",
+  "info": {
+    "displayName": "Testimonial",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-assets.t-itle"
+    },
+    "Testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-assets.photo-card"
+    }
+  }
+}

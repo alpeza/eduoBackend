@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_landing_assets_button_banners",
+  "info": {
+    "displayName": "ButtonBanner",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "Action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-assets.button"
+    },
+    "Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-assets.t-itle"
+    }
+  }
+}

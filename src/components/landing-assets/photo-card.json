@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_landing_assets_photo_cards",
+  "info": {
+    "displayName": "PhotoCard",
+    "icon": "cubes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}

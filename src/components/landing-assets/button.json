@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_landing_assets_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "cubes"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "text"
+    }
+  }
+}

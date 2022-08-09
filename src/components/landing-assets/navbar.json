@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_landing_assets_navbars",
+  "info": {
+    "displayName": "Navbar"
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-assets.logo-name"
+    },
+    "MainNavItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-assets.button"
+    }
+  }
+}

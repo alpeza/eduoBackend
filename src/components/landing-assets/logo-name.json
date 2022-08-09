@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_landing_assets_logo_names",
+  "info": {
+    "displayName": "Logo-Name",
+    "icon": "cubes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}

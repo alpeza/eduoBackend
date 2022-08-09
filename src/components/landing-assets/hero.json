@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_landing_assets_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "LBText": {
+      "type": "string"
+    },
+    "RBText": {
+      "type": "string"
+    },
+    "BottomTex": {
+      "type": "string"
+    }
+  }
+}

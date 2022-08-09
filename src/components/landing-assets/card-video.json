@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_landing_assets_card_videos",
+  "info": {
+    "displayName": "CardVideo",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Head": {
+      "type": "string"
+    },
+    "videoUrl": {
+      "type": "text"
+    },
+    "Text": {
+      "type": "text"
+    }
+  }
+}
