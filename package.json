@@ -18,6 +18,7 @@
     "@strapi/strapi": "4.3.2",
     "better-sqlite3": "7.4.6",
     "onlyoffice-strapi": "^1.0.6",
+    "pg-connection-string": "^2.5.0",
     "strapi-code-themes": "^1.0.2",
     "strapi-plugin-colorpicker": "^1.0.35",
     "strapi-plugin-config-sync": "^1.0.2",
