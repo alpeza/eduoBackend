@@ -17,6 +17,7 @@
     "@strapi/plugin-users-permissions": "4.3.2",
     "@strapi/strapi": "4.3.2",
     "better-sqlite3": "7.4.6",
+    "bookshelf": "^1.2.0",
     "onlyoffice-strapi": "^1.0.6",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
