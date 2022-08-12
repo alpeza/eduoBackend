@@ -1,0 +1,116 @@
+{
+  "key": "plugin_content_manager_configuration_components::landing-assets.photo-card",
+  "value": {
+    "uid": "landing-assets.photo-card",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Text",
+      "defaultSortBy": "Text",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Text": {
+        "edit": {
+          "label": "Text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "SubTitle": {
+        "edit": {
+          "label": "SubTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "SubTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Image": {
+        "edit": {
+          "label": "Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Description": {
+        "edit": {
+          "label": "Description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Description",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Text",
+        "SubTitle",
+        "Image"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Text",
+            "size": 6
+          },
+          {
+            "name": "SubTitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Image",
+            "size": 6
+          },
+          {
+            "name": "Description",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

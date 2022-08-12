@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_internals_routing_components",
+  "info": {
+    "displayName": "RoutingComponent",
+    "icon": "network-wired",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page"
+    },
+    "Links": {
+      "displayName": "WebLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "internals.web-link"
+    },
+    "social": {
+      "displayName": "social",
+      "type": "component",
+      "repeatable": true,
+      "component": "branding.social"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "key": "plugin_content_manager_configuration_components::landing-assets.meta-info",
+  "value": {
+    "uid": "landing-assets.meta-info",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "icon": {
+        "edit": {
+          "label": "icon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "icon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "extraProps": {
+        "edit": {
+          "label": "extraProps",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "extraProps",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "metaName": {
+        "edit": {
+          "label": "metaName",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "metaName",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "metaContent": {
+        "edit": {
+          "label": "metaContent",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "metaContent",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "icon",
+        "metaName",
+        "metaContent"
+      ],
+      "edit": [
+        [
+          {
+            "name": "icon",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "extraProps",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "metaName",
+            "size": 6
+          },
+          {
+            "name": "metaContent",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Title",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

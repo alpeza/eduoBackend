@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_internals_web_links",
+  "info": {
+    "displayName": "WebLink",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "DisplayName": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

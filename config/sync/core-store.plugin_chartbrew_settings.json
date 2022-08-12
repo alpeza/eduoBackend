@@ -1,0 +1,12 @@
+{
+  "key": "plugin_chartbrew_settings",
+  "value": {
+    "host": "https://api.chartbrew.com",
+    "clientHost": "https://api.chartbrew.com",
+    "token": "",
+    "hasToken": false
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

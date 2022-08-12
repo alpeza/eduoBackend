@@ -1,4 +1,7 @@
-module.exports = ({ env }) => ({
+module.exports = ({ env }) => { return {
+  ckeditor: {
+    enabled: true,
+   },
     upload: {
       config: {
         provider: 'cloudinary',
@@ -14,4 +17,4 @@ module.exports = ({ env }) => ({
         },
       },
     },
-  });
+  }};

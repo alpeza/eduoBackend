@@ -1,0 +1,154 @@
+{
+  "key": "plugin_content_manager_configuration_components::landing-assets.hero",
+  "value": {
+    "uid": "landing-assets.hero",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Title",
+      "defaultSortBy": "Title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Subtitle": {
+        "edit": {
+          "label": "Subtitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Subtitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Image": {
+        "edit": {
+          "label": "Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "LBText": {
+        "edit": {
+          "label": "LBText",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "LBText",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "RBText": {
+        "edit": {
+          "label": "RBText",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "RBText",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "BottomTex": {
+        "edit": {
+          "label": "BottomTex",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "BottomTex",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Title",
+        "Subtitle",
+        "Image"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Title",
+            "size": 6
+          },
+          {
+            "name": "Subtitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Image",
+            "size": 6
+          },
+          {
+            "name": "LBText",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "RBText",
+            "size": 6
+          },
+          {
+            "name": "BottomTex",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

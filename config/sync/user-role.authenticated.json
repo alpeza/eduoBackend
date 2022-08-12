@@ -1,0 +1,10 @@
+{
+  "name": "Authenticated",
+  "description": "Default role given to authenticated user.",
+  "type": "authenticated",
+  "permissions": [
+    {
+      "action": "plugin::users-permissions.user.me"
+    }
+  ]
+}
