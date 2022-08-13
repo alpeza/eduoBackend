@@ -1,0 +1,12 @@
+{
+  "key": "plugin_onlyoffice_editorConfig",
+  "value": {
+    "docServConfig": {
+      "docJwtSecret": "",
+      "docServUrl": null
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

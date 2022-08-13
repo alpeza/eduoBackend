@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_branding_socials",
+  "info": {
+    "displayName": "social",
+    "icon": "cubes"
+  },
+  "options": {},
+  "attributes": {
+    "socialnetwork": {
+      "type": "enumeration",
+      "enum": [
+        "Linkedin",
+        "Twitter",
+        "Instagram",
+        "Facebook",
+        "Medium",
+        "GitHub",
+        "Telegram",
+        "YouTube"
+      ]
+    },
+    "url": {
+      "type": "text",
+      "regex": "(^\\/$|^#$|^https:\\/\\/.*)",
+      "required": true,
+      "default": "#"
+    }
+  }
+}

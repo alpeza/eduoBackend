@@ -1,0 +1,734 @@
+{
+  "name": "Super Admin",
+  "code": "strapi-super-admin",
+  "description": "Super Admins can access and manage all features and settings.",
+  "permissions": [
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::editor.editor",
+      "properties": {
+        "fields": [
+          "editor.name",
+          "editor.surname",
+          "editor.alias",
+          "editor.about",
+          "editor.profileimage"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::editor.editor",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::editor.editor",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::editor.editor",
+      "properties": {
+        "fields": [
+          "editor.name",
+          "editor.surname",
+          "editor.alias",
+          "editor.about",
+          "editor.profileimage"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::editor.editor",
+      "properties": {
+        "fields": [
+          "editor.name",
+          "editor.surname",
+          "editor.alias",
+          "editor.about",
+          "editor.profileimage"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::landing-page.landing-page",
+      "properties": {
+        "fields": [
+          "Hero.Title",
+          "Hero.Subtitle",
+          "Hero.Image",
+          "Hero.LBText",
+          "Hero.RBText",
+          "Hero.BottomTex",
+          "Section1.Title",
+          "Section1.Subtitle",
+          "Section1.Header",
+          "Section2.Title",
+          "Section2.Text",
+          "Section2.CardItem.Text",
+          "Section2.CardItem.Icon",
+          "Section2.CardItem.Title",
+          "Section2.Image",
+          "Section3.Title",
+          "Section3.Text",
+          "Section3.Image",
+          "Section3.CardItem.Text",
+          "Section3.CardItem.Icon",
+          "Section3.CardItem.Title",
+          "Section4.Title",
+          "Section4.Head",
+          "Section4.videoUrl",
+          "Section4.Text",
+          "Section5.Title.Title",
+          "Section5.Title.Head",
+          "Section5.Title.Text",
+          "Section5.Testimonials.Text",
+          "Section5.Testimonials.SubTitle",
+          "Section5.Testimonials.Image",
+          "Section5.Testimonials.Description",
+          "Section6.Header.Title",
+          "Section6.Header.Head",
+          "Section6.Header.Text",
+          "Section6.Acordeon.Title",
+          "Section6.Acordeon.Text",
+          "Section7.Action.Text",
+          "Section7.Action.Link",
+          "Section7.Title.Title",
+          "Section7.Title.Head",
+          "Section7.Title.Text",
+          "Navbar.Logo.Logo",
+          "Navbar.Logo.Name",
+          "Navbar.MainNavItems.Text",
+          "Navbar.MainNavItems.Link",
+          "MetaInfo.icon",
+          "MetaInfo.extraProps",
+          "MetaInfo.metaName",
+          "MetaInfo.metaContent",
+          "MetaInfo.Title"
+        ],
+        "locales": [
+          "en",
+          "es"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::landing-page.landing-page",
+      "properties": {
+        "locales": [
+          "en",
+          "es"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::landing-page.landing-page",
+      "properties": {
+        "locales": [
+          "en",
+          "es"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::landing-page.landing-page",
+      "properties": {
+        "fields": [
+          "Hero.Title",
+          "Hero.Subtitle",
+          "Hero.Image",
+          "Hero.LBText",
+          "Hero.RBText",
+          "Hero.BottomTex",
+          "Section1.Title",
+          "Section1.Subtitle",
+          "Section1.Header",
+          "Section2.Title",
+          "Section2.Text",
+          "Section2.CardItem.Text",
+          "Section2.CardItem.Icon",
+          "Section2.CardItem.Title",
+          "Section2.Image",
+          "Section3.Title",
+          "Section3.Text",
+          "Section3.Image",
+          "Section3.CardItem.Text",
+          "Section3.CardItem.Icon",
+          "Section3.CardItem.Title",
+          "Section4.Title",
+          "Section4.Head",
+          "Section4.videoUrl",
+          "Section4.Text",
+          "Section5.Title.Title",
+          "Section5.Title.Head",
+          "Section5.Title.Text",
+          "Section5.Testimonials.Text",
+          "Section5.Testimonials.SubTitle",
+          "Section5.Testimonials.Image",
+          "Section5.Testimonials.Description",
+          "Section6.Header.Title",
+          "Section6.Header.Head",
+          "Section6.Header.Text",
+          "Section6.Acordeon.Title",
+          "Section6.Acordeon.Text",
+          "Section7.Action.Text",
+          "Section7.Action.Link",
+          "Section7.Title.Title",
+          "Section7.Title.Head",
+          "Section7.Title.Text",
+          "Navbar.Logo.Logo",
+          "Navbar.Logo.Name",
+          "Navbar.MainNavItems.Text",
+          "Navbar.MainNavItems.Link",
+          "MetaInfo.icon",
+          "MetaInfo.extraProps",
+          "MetaInfo.metaName",
+          "MetaInfo.metaContent",
+          "MetaInfo.Title"
+        ],
+        "locales": [
+          "en",
+          "es"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::landing-page.landing-page",
+      "properties": {
+        "fields": [
+          "Hero.Title",
+          "Hero.Subtitle",
+          "Hero.Image",
+          "Hero.LBText",
+          "Hero.RBText",
+          "Hero.BottomTex",
+          "Section1.Title",
+          "Section1.Subtitle",
+          "Section1.Header",
+          "Section2.Title",
+          "Section2.Text",
+          "Section2.CardItem.Text",
+          "Section2.CardItem.Icon",
+          "Section2.CardItem.Title",
+          "Section2.Image",
+          "Section3.Title",
+          "Section3.Text",
+          "Section3.Image",
+          "Section3.CardItem.Text",
+          "Section3.CardItem.Icon",
+          "Section3.CardItem.Title",
+          "Section4.Title",
+          "Section4.Head",
+          "Section4.videoUrl",
+          "Section4.Text",
+          "Section5.Title.Title",
+          "Section5.Title.Head",
+          "Section5.Title.Text",
+          "Section5.Testimonials.Text",
+          "Section5.Testimonials.SubTitle",
+          "Section5.Testimonials.Image",
+          "Section5.Testimonials.Description",
+          "Section6.Header.Title",
+          "Section6.Header.Head",
+          "Section6.Header.Text",
+          "Section6.Acordeon.Title",
+          "Section6.Acordeon.Text",
+          "Section7.Action.Text",
+          "Section7.Action.Link",
+          "Section7.Title.Title",
+          "Section7.Title.Head",
+          "Section7.Title.Text",
+          "Navbar.Logo.Logo",
+          "Navbar.Logo.Name",
+          "Navbar.MainNavItems.Text",
+          "Navbar.MainNavItems.Link",
+          "MetaInfo.icon",
+          "MetaInfo.extraProps",
+          "MetaInfo.metaName",
+          "MetaInfo.metaContent",
+          "MetaInfo.Title"
+        ],
+        "locales": [
+          "en",
+          "es"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::portfolio-page.portfolio-page",
+      "properties": {
+        "fields": [
+          "title.title",
+          "title.subtitle"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::portfolio-page.portfolio-page",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::portfolio-page.portfolio-page",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::portfolio-page.portfolio-page",
+      "properties": {
+        "fields": [
+          "title.title",
+          "title.subtitle"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::portfolio-page.portfolio-page",
+      "properties": {
+        "fields": [
+          "title.title",
+          "title.subtitle"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::portfolio.portfolio",
+      "properties": {
+        "fields": [
+          "descriptor.title",
+          "descriptor.type",
+          "descriptor.description",
+          "descriptor.miniature",
+          "descriptor.editor",
+          "descriptor.callpath",
+          "body"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::portfolio.portfolio",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::portfolio.portfolio",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::portfolio.portfolio",
+      "properties": {
+        "fields": [
+          "descriptor.title",
+          "descriptor.type",
+          "descriptor.description",
+          "descriptor.miniature",
+          "descriptor.editor",
+          "descriptor.callpath",
+          "body"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::portfolio.portfolio",
+      "properties": {
+        "fields": [
+          "descriptor.title",
+          "descriptor.type",
+          "descriptor.description",
+          "descriptor.miniature",
+          "descriptor.editor",
+          "descriptor.callpath",
+          "body"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::marketplace.plugins.install",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::marketplace.plugins.uninstall",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::marketplace.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::project-settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::project-settings.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::config-sync.menu-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::config-sync.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.collection-types.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.components.configure-layout",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "plugin::users-permissions.user",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.single-types.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-type-builder.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-versioning.save",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::email.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.copy-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.download",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.advanced-settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.advanced-settings.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.email-templates.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.email-templates.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.providers.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.providers.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    }
+  ]
+}

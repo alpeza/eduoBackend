@@ -16,6 +16,10 @@
       "type": "component",
       "repeatable": false,
       "component": "portfolio.descriptor"
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": []
     }
   }
 }

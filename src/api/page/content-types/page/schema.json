@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Pages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "versions": {
+      "versioned": true
+    }
+  },
+  "attributes": {
+    "pname": {
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        }
+      },
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "ppath": {
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        }
+      },
+      "type": "string",
+      "regex": "^\\w+$",
+      "unique": true,
+      "required": true,
+      "maxLength": 16
+    },
+    "pcontent": {
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "landing-assets.card-left-text",
+        "landing-assets.card-right-text",
+        "landing-assets.hero",
+        "landing-assets.card-video",
+        "landing-assets.acordeon-card"
+      ]
+    }
+  }
+}

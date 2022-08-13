@@ -1,0 +1,136 @@
+{
+  "key": "plugin_content_manager_configuration_components::portfolio.editor",
+  "value": {
+    "uid": "portfolio.editor",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "name",
+      "defaultSortBy": "name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "name": {
+        "edit": {
+          "label": "name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "surname": {
+        "edit": {
+          "label": "surname",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "surname",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "alias": {
+        "edit": {
+          "label": "alias",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "alias",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "about": {
+        "edit": {
+          "label": "about",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "about",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "profileimage": {
+        "edit": {
+          "label": "profileimage",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "profileimage",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "name",
+        "surname",
+        "alias"
+      ],
+      "edit": [
+        [
+          {
+            "name": "name",
+            "size": 6
+          },
+          {
+            "name": "surname",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "alias",
+            "size": 6
+          },
+          {
+            "name": "about",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "profileimage",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

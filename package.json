@@ -7,11 +7,11 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "pro": "strapi start"
   },
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^1.1.1",
-    "@chartbrew/plugin-strapi": "^0.3.0",
     "@notum-cz/strapi-plugin-content-versioning": "^0.4.3",
     "@strapi/plugin-i18n": "4.3.2",
     "@strapi/plugin-users-permissions": "4.3.2",
@@ -19,16 +19,9 @@
     "@strapi/strapi": "4.3.2",
     "better-sqlite3": "7.4.6",
     "bookshelf": "^1.2.0",
-    "onlyoffice-strapi": "^1.0.6",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
-    "strapi-code-themes": "^1.0.2",
-    "strapi-plugin-colorpicker": "^1.0.35",
     "strapi-plugin-config-sync": "^1.0.2",
-    "strapi-plugin-custom-api": "^1.0.3",
-    "strapi-plugin-entity-relationship-chart": "^4.1.0",
-    "strapi-plugin-fast-content": "^0.0.5",
-    "strapi-plugin-graphs-builder": "^1.0.0",
     "strapi-plugin-import-export-content": "^0.4.2",
     "strapi-plugin-import-export-entries": "^1.9.0",
     "strapi-plugin-local-image-sharp": "^1.2.0",
@@ -36,9 +29,7 @@
     "strapi-plugin-notes": "^1.0.1",
     "strapi-plugin-placeholder": "^4.1.7",
     "strapi-plugin-populate-deep": "^0.1.2",
-    "strapi-plugin-preview-button": "^0.3.5",
-    "strapi-plugin-todo": "^0.0.9",
-    "strapi-plugin-wysiwsg-react-md-editor": "^4.2.0"
+    "strapi-plugin-todo": "^0.0.9"
   },
   "author": {
     "name": "A Strapi developer"

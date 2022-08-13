@@ -1,0 +1,267 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::landing-page.landing-page",
+  "value": {
+    "uid": "api::landing-page.landing-page",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Hero": {
+        "edit": {
+          "label": "Hero",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Hero",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Section1": {
+        "edit": {
+          "label": "Section1",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Section1",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Section2": {
+        "edit": {
+          "label": "Section2",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Section2",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Section3": {
+        "edit": {
+          "label": "Section3",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Section3",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Section4": {
+        "edit": {
+          "label": "Section4",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Section4",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Section5": {
+        "edit": {
+          "label": "Section5",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Section5",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Section6": {
+        "edit": {
+          "label": "Section6",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Section6",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Section7": {
+        "edit": {
+          "label": "Section7",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Section7",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Navbar": {
+        "edit": {
+          "label": "Navbar",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Navbar",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "MetaInfo": {
+        "edit": {
+          "label": "MetaInfo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "MetaInfo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "Hero"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Hero",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Section1",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Section2",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Section3",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Section4",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Section5",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Section6",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Section7",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Navbar",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "MetaInfo",
+            "size": 12
+          }
+        ]
+      ],
+      "editRelations": []
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
