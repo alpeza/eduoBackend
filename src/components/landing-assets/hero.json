@@ -32,6 +32,12 @@
     },
     "BottomTex": {
       "type": "string"
+    },
+    "LBUrl": {
+      "type": "string"
+    },
+    "RBUrl": {
+      "type": "string"
     }
   }
 }

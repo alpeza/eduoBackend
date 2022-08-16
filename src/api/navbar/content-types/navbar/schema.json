@@ -27,6 +27,11 @@
       "type": "component",
       "repeatable": false,
       "component": "internals.routing-component"
+    },
+    "metaInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-assets.meta-info"
     }
   }
 }

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_landing_assets_ctas",
+  "info": {
+    "displayName": "Cta",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "CtTitle": {
+      "type": "text"
+    },
+    "CtSubTitle": {
+      "type": "text"
+    },
+    "CtButtonTitle": {
+      "type": "string"
+    },
+    "CtButtonUrl": {
+      "type": "string"
+    }
+  }
+}
