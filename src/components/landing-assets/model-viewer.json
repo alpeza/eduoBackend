@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_landing_assets_model_viewers",
+  "info": {
+    "displayName": "ModelViewer",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "Model": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "style": {
+      "type": "json"
+    },
+    "config": {
+      "type": "json"
+    }
+  }
+}

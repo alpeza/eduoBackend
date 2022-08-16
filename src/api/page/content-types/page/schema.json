@@ -50,7 +50,9 @@
         "landing-assets.card-right-text",
         "landing-assets.hero",
         "landing-assets.card-video",
-        "landing-assets.acordeon-card"
+        "landing-assets.acordeon-card",
+        "landing-assets.cta",
+        "landing-assets.model-viewer"
       ]
     }
   }
