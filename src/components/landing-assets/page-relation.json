@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_landing_assets_page_relations",
+  "info": {
+    "displayName": "PageRelation",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    }
+  }
+}
