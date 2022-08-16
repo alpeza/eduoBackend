@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MainPage": {
+      "displayName": "PageRelation",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-assets.page-relation"
+    }
+  }
+}
