@@ -52,7 +52,8 @@
         "landing-assets.card-video",
         "landing-assets.acordeon-card",
         "landing-assets.cta",
-        "landing-assets.model-viewer"
+        "landing-assets.model-viewer",
+        "landing-assets.carousel"
       ]
     }
   }
