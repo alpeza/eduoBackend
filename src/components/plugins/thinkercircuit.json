@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_plugins_thinkercircuits",
+  "info": {
+    "displayName": "thinkercircuit",
+    "icon": "plug",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "text",
+      "regex": "https:\\/\\/www\\.tinkercad\\.com\\/things\\/(\\w+)",
+      "required": true,
+      "default": "https://www.tinkercad.com/things/2xL4297W8Hl"
+    },
+    "cname": {
+      "type": "string"
+    }
+  }
+}

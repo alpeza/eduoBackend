@@ -55,7 +55,8 @@
         "landing-assets.model-viewer",
         "landing-assets.carousel",
         "grid-cards.shop-factory",
-        "landing-assets.free-text"
+        "landing-assets.free-text",
+        "plugins.thinkercircuit"
       ]
     }
   }
