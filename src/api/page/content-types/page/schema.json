@@ -53,7 +53,9 @@
         "landing-assets.acordeon-card",
         "landing-assets.cta",
         "landing-assets.model-viewer",
-        "landing-assets.carousel"
+        "landing-assets.carousel",
+        "grid-cards.shop-factory",
+        "landing-assets.free-text"
       ]
     }
   }

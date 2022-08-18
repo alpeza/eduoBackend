@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_landing_assets_free_texts",
+  "info": {
+    "displayName": "FreeText",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}
