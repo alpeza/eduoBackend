@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_grid_cards_shop_cards",
+  "info": {
+    "displayName": "ShopCard",
+    "icon": "grip-horizontal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ctitle": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "meta": {
+      "type": "json"
+    },
+    "price": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "enumeration",
+      "enum": [
+        "EUR",
+        "USD",
+        "BTC"
+      ],
+      "default": "EUR",
+      "required": true
+    }
+  }
+}

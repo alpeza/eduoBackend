@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_grid_cards_shop_factories",
+  "info": {
+    "displayName": "ShopFactory",
+    "icon": "industry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "collection_shops": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::collection-shop.collection-shop"
+    },
+    "actionLiteral": {
+      "type": "string"
+    }
+  }
+}
