@@ -56,7 +56,9 @@
         "landing-assets.carousel",
         "grid-cards.shop-factory",
         "landing-assets.free-text",
-        "plugins.thinkercircuit"
+        "plugins.thinkercircuit",
+        "landing-assets.square-card",
+        "tweaks.steam"
       ]
     }
   }

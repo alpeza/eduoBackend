@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_landing_assets_square_cards",
+  "info": {
+    "displayName": "squareCard",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "STitle": {
+      "type": "string"
+    },
+    "SSubtitle": {
+      "type": "text"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "internals.web-link"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "isDarkImage": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "Parallax": {
+      "type": "integer",
+      "required": true,
+      "default": 40,
+      "min": 0
+    },
+    "ScreenHeight": {
+      "type": "integer",
+      "required": true,
+      "min": 0,
+      "default": 90
+    }
+  }
+}

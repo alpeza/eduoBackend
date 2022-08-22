@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_tweaks_steams",
+  "info": {
+    "displayName": "steam",
+    "icon": "dice-two",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "STitle": {
+      "type": "string"
+    },
+    "SSubTitle": {
+      "type": "text"
+    },
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "internals.web-link"
+    }
+  }
+}
