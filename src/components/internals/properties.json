@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_internals_properties",
+  "info": {
+    "displayName": "properties",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}
