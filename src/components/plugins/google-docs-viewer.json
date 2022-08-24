@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_plugins_google_docs_viewers",
+  "info": {
+    "displayName": "GoogleDocsViewer",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "text",
+      "required": true
+    },
+    "displayLink": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "properties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "internals.properties"
+    },
+    "displayLinkUrl": {
+      "type": "text"
+    }
+  }
+}
