@@ -29,6 +29,11 @@
         "videos",
         "audios"
       ]
+    },
+    "Parallax": {
+      "type": "integer",
+      "default": 0,
+      "required": false
     }
   }
 }
