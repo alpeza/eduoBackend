@@ -45,6 +45,11 @@
       "required": true,
       "min": 0,
       "default": 90
+    },
+    "freetext": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-assets.free-text"
     }
   }
 }
