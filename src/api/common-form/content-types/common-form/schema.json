@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "common_forms",
+  "info": {
+    "singularName": "common-form",
+    "pluralName": "common-forms",
+    "displayName": "CommonForms"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "communications.send-question"
+    }
+  }
+}
