@@ -7,16 +7,16 @@
   },
   "options": {},
   "attributes": {
-    "form": {
-      "type": "component",
-      "repeatable": false,
-      "component": "communications.send-question"
-    },
     "cftitle": {
       "type": "text"
     },
     "cfsubtitle": {
       "type": "text"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "communications.common-form"
     }
   }
 }

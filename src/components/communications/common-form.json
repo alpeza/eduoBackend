@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_communications_common_forms",
+  "info": {
+    "displayName": "CommonForm",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "common_forms": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::common-form.common-form"
+    }
+  }
+}
