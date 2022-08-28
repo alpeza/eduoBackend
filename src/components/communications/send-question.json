@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_communications_send_questions",
+  "info": {
+    "displayName": "Form",
+    "icon": "sms",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "JSONSchema": {
+      "type": "json",
+      "required": true
+    },
+    "UISchema": {
+      "type": "json",
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
