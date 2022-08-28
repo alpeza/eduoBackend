@@ -59,7 +59,8 @@
         "plugins.thinkercircuit",
         "landing-assets.square-card",
         "tweaks.steam",
-        "plugins.google-docs-viewer"
+        "plugins.google-docs-viewer",
+        "communications.send-form"
       ]
     }
   }
