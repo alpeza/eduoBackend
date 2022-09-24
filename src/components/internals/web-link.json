@@ -2,7 +2,8 @@
   "collectionName": "components_internals_web_links",
   "info": {
     "displayName": "WebLink",
-    "icon": "link"
+    "icon": "link",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,6 +12,16 @@
     },
     "url": {
       "type": "string"
+    },
+    "wlicon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

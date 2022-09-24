@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_landing_assets_nav_sliders",
+  "info": {
+    "displayName": "NavSlider",
+    "icon": "barcode"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "internals.web-link"
+    }
+  }
+}
