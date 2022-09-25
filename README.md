@@ -2,9 +2,9 @@
 
 API Rest
 
-```
-heroku pg:credentials:rotate -a eduokit-admin --confirm eduokit-admin
-```
+## Deploy en Google Cloud
+
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
 
 ## Backup
 
@@ -29,4 +29,10 @@ psql -h localhost -p 5432 -U postgres postgres
 ```bash
 su - postgres
 pg_restore --verbose --clean --no-acl --no-owner -h localhost -U postgres -d mydb b4d9d1a0-8be9-4ef9-81f0-705656e5c4c3
+```
+
+## Heroku version
+
+```
+heroku pg:credentials:rotate -a eduokit-admin --confirm eduokit-admin
 ```
