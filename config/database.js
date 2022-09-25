@@ -1,12 +1,16 @@
 module.exports = ({ env }) => ({
-  connection: {
-    client: 'postgres',
-    connection: {
-      host: `${env('INSTANCE_CONNECTION_NAME')}`,
-      database: env('DATABASE_NAME'),
-      port: env('DATABASE_PORT'),
-      user: env('DATABASE_USER'),
-      password: env('DATABASE_PASSWORD'),
+  defaultConnection: 'default',
+  connections: {
+    default: {
+      connector: 'bookshelf',
+      settings: {
+        client: 'postgres',
+        host: `/cloudsql/${env('INSTANCE_CONNECTION_NAME')}`,
+        database: env('DATABASE_NAME'),
+        username: env('DATABASE_USERNAME'),
+        password: env('DATABASE_PASSWORD'),
+      },
+      options: {},
     },
   },
 });
