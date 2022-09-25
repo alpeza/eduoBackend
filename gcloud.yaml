@@ -5,8 +5,8 @@ metadata:
   namespace: '204130050774'
   selfLink: /apis/serving.knative.dev/v1/namespaces/204130050774/services/eduobackend
   uid: 99506ad8-a8ac-420e-b157-2a6e314c0337
-  resourceVersion: AAXpgZfuFgQ
-  generation: 4
+  resourceVersion: AAXpgbhayOg
+  generation: 5
   creationTimestamp: '2022-09-25T13:35:11.057058Z'
   labels:
     managed-by: gcp-cloud-build-deploy-cloud-run
@@ -48,13 +48,45 @@ spec:
         - name: DATABASE_PASSWORD
           value: eduokitpostgre
         - name: INSTANCE_CONNECTION_NAME
-          value: 'eduokitpostgre'
-        #- name: INSTANCE_CONNECTION_NAME
-        #  value: 'eduokit-363508:europe-southwest1:eduokitpostgre'
+          value: eduokitpostgre
         resources:
           limits:
             cpu: 1000m
             memory: 512Mi
   traffic:
   - percent: 100
+    latestRevision: true
+status:
+  observedGeneration: 5
+  conditions:
+  - type: Ready
+    status: 'False'
+    reason: HealthCheckContainerError
+    message: "Revision 'eduobackend-00004-qoz' is not ready and cannot serve traffic.\
+      \ The user-provided container failed to start and listen on the port defined\
+      \ provided by the PORT=1337 environment variable. Logs for this revision might\
+      \ contain more information.\n\nLogs URL: https://console.cloud.google.com/logs/viewer?project=eduokit-363508&resource=cloud_run_revision/service_name/eduobackend/revision_name/eduobackend-00004-qoz&advancedFilter=resource.type%3D%22cloud_run_revision%22%0Aresource.labels.service_name%3D%22eduobackend%22%0Aresource.labels.revision_name%3D%22eduobackend-00004-qoz%22\
+      \ \nFor more troubleshooting guidance, see https://cloud.google.com/run/docs/troubleshooting#container-failed-to-start"
+    lastTransitionTime: '2022-09-25T15:03:56.563688Z'
+  - type: ConfigurationsReady
+    status: 'False'
+    reason: HealthCheckContainerError
+    message: "The user-provided container failed to start and listen on the port defined\
+      \ provided by the PORT=1337 environment variable. Logs for this revision might\
+      \ contain more information.\n\nLogs URL: https://console.cloud.google.com/logs/viewer?project=eduokit-363508&resource=cloud_run_revision/service_name/eduobackend/revision_name/eduobackend-00004-qoz&advancedFilter=resource.type%3D%22cloud_run_revision%22%0Aresource.labels.service_name%3D%22eduobackend%22%0Aresource.labels.revision_name%3D%22eduobackend-00004-qoz%22\
+      \ \nFor more troubleshooting guidance, see https://cloud.google.com/run/docs/troubleshooting#container-failed-to-start"
+    lastTransitionTime: '2022-09-25T15:03:56.440818Z'
+  - type: RoutesReady
+    status: 'False'
+    reason: HealthCheckContainerError
+    message: "Revision 'eduobackend-00004-qoz' is not ready and cannot serve traffic.\
+      \ The user-provided container failed to start and listen on the port defined\
+      \ provided by the PORT=1337 environment variable. Logs for this revision might\
+      \ contain more information.\n\nLogs URL: https://console.cloud.google.com/logs/viewer?project=eduokit-363508&resource=cloud_run_revision/service_name/eduobackend/revision_name/eduobackend-00004-qoz&advancedFilter=resource.type%3D%22cloud_run_revision%22%0Aresource.labels.service_name%3D%22eduobackend%22%0Aresource.labels.revision_name%3D%22eduobackend-00004-qoz%22\
+      \ \nFor more troubleshooting guidance, see https://cloud.google.com/run/docs/troubleshooting#container-failed-to-start"
+    lastTransitionTime: '2022-09-25T15:03:56.563688Z'
+  latestCreatedRevisionName: eduobackend-00004-qoz
+  traffic:
+  - revisionName: eduobackend-00001-qoz
+    percent: 100
     latestRevision: true
