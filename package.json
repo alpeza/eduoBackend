@@ -20,6 +20,7 @@
     "@strapi/strapi": "4.3.2",
     "better-sqlite3": "7.4.6",
     "bookshelf": "^1.2.0",
+    "moment": "^2.29.4",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
     "strapi-plugin-config-sync": "^1.0.2",
