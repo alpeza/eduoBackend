@@ -10,6 +10,7 @@ network:
  
 env_variables:
   HOST: '0.0.0.0'
+  PORT: 1337
   NODE_ENV: 'production'
   DATABASE_NAME: 'strapi'
   DATABASE_USER: 'postgres'
