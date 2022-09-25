@@ -3,9 +3,10 @@ module.exports = ({ env }) => ({
     client: 'postgres',
     connection: {
       host: `/cloudsql/${env('INSTANCE_CONNECTION_NAME')}`,
-      database: env('DATABASE_NAME'),
-      user: env('DATABASE_USER'),
-      password: env('DATABASE_PASSWORD'),
+      port: env.int('DATABASE_PORT', 5432),
+      database: env('DATABASE_NAME', 'strapi'),
+      user: env('DATABASE_USER', 'user'),
+      password: env('DATABASE_PASSWORD', 'admin'),
     },
   },
 });
